@@ -15,10 +15,9 @@ header{
   height: 70px;
   width: 100%;
   background-color: #fff;
-  /* position: relative; */
 }
 
-header img{
+.header-img{
   width: 90px;
   position: absolute;
   padding: 20px;
@@ -42,6 +41,21 @@ header li{
   font-style: 15px;
   padding: 0 10px;
   font-size: 15px;
+}
+
+.header-sns{
+  display: flex;
+  
+}
+
+.twitter-header{
+  width: 30px;
+  margin: 5px;
+}
+
+.facebook-header{
+  width: 30px;
+  margin: 5px;
 }
 
 /* firstview */
@@ -109,6 +123,10 @@ header li{
 .trailer iframe{
   width: 450px;
   height: 250px;
+}
+
+.trailer-box p{
+  margin-top: 10px;
 }
 
 /* background */
@@ -217,11 +235,11 @@ span{
 .cast-box h2{
   padding: 5px 20px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #fff;
-  width: 100px;
+  width: 80px;
   margin-top: 30px;
-
+  font-weight: 400;
 }
 
 .cast-box h3{
@@ -232,7 +250,7 @@ span{
 
 .cast-box h4{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-weight: 400;
 }
 
@@ -262,10 +280,12 @@ span{
 .story-button{
   font-size: 16px;
   background-color: #00b7de;
-  width: 200px;
+  width: 230px;
+  line-height: 50px;
   color: #fff;
   margin-bottom: 40px;
   margin-top: 20px;
+  border-radius: 3px;
 }
 
 /* GREEN */
@@ -340,7 +360,7 @@ span{
 footer{
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #212423;
   line-height: 110px;
   font-size: 12px;
   font-family: YakuHanJP, "Noto Sans JP", sans-serif;
