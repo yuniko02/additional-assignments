@@ -12,21 +12,24 @@
 /* navi */
 header{
   position: fixed;
+  display: flex;
   height: 70px;
   width: 100%;
   background-color: #fff;
+  z-index: 10 ;
 }
 
 .header-img{
   width: 90px;
-  position: absolute;
   padding: 20px;
 }
 
 header nav{
+  display: flex;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-left: 160px;
 }
 
 header ul{
@@ -37,15 +40,17 @@ header ul{
 header li{
   list-style: none;
   display: inline-block;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-style: 15px;
   padding: 0 10px;
   font-size: 15px;
+
 }
 
 .header-sns{
   display: flex;
-  
+  position: absolute;
+  right: 0;
 }
 
 .twitter-header{
@@ -85,20 +90,24 @@ header li{
   margin: 15px;
   padding: 20px 10px;
   width: 250px;
+
 }
 
 .sns-link-1{
   text-decoration: none;
   color: #000;
+  vertical-align: middle;
 }
 
 .sns-link img{
   width: 15px;
+  vertical-align: middle;
 }
 
 .sns-link-2{
   text-decoration: none;
   color: #000;
+  vertical-align: middle;
 }
 
 /* trailer */
@@ -141,6 +150,7 @@ header li{
   display: flex;
   margin-top: 150px;
   margin-bottom: 200px;
+  justify-content: center;
 }
 
 .introduction img{
@@ -275,9 +285,16 @@ span{
 
 .cast-detail{
   font-size: 11px;
+  margin: 5px;
+}
+
+.story-button-box{
+  display: flex;
+  position: relative;
 }
 
 .story-button{
+  position: relative;
   font-size: 16px;
   background-color: #00b7de;
   width: 230px;
@@ -288,6 +305,15 @@ span{
   border-radius: 3px;
 }
 
+.story-button-arrow{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 160px;
+  top: 38px;
+}
+    
+
 /* GREEN */
 .hulu-green{
   background-color: #66a933;
@@ -297,7 +323,7 @@ span{
   text-align: center;
 }
 
-.hulu-green img{
+.hulu-green-img{
   width: 200px;
   margin-top: 120px;
   margin-bottom: 50px;
@@ -328,6 +354,14 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.hulu-green-box img{
+  width: 40px;
+  position: absolute;
+  padding-left: 180px;
+  padding-top: 300px;
 }
 
 .hulu-green-box:hover{
@@ -365,4 +399,20 @@ footer{
   font-size: 12px;
   font-family: YakuHanJP, "Noto Sans JP", sans-serif;
   font-weight: 700;
+}
+
+.fa-twitter {
+  background-color: #000;
+  padding: 6px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+}
+
+.fa-facebook{
+  background-color: #000;
+  padding: 6px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 20px;
 }
