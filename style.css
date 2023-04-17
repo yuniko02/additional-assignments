@@ -357,11 +357,11 @@ span{
   position: relative;
 }
 
-.hulu-green-box img{
-  width: 40px;
+.fa-sharp{
   position: absolute;
-  padding-left: 180px;
+  font-size: 50px;
   padding-top: 300px;
+  padding-left: 180px;
 }
 
 .hulu-green-box:hover{
